@@ -2,6 +2,8 @@ package service;
 
 import model.Pessoa;
 
+import javax.swing.JOptionPane;
+
 public class IMCService {
 
     public double calcularIMC(Pessoa pessoa) {
