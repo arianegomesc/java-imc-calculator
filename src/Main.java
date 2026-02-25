@@ -23,7 +23,7 @@ public class Main {
 
 
             if (peso <= 0 || altura <= 0) {
-                System.out.println("ERRO: Peso e altura devem ser maiores que zero.");
+                JOptionPane.showMessageDialog(null, "ERRO: Peso e altura devem ser maiores que zero.");
                 return;
             }
 
